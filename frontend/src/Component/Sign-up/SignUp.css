@@ -1,0 +1,343 @@
+.sign-up {
+   /* border: 1px solid black; */
+   width: 100%;
+}
+
+.su-gap {
+   height: 16px;
+}
+
+/* input[type="number"] {
+   -moz-appearance: textfield;
+} */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+}
+
+.su-apple-id-bg {
+   border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.su-apple-id {
+   /* border: 1px solid red; */
+   width: 72.5%;
+   height: 52px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.su-apple-id>p {
+   color: rgb(17, 17, 17);
+   font-size: 24px;
+}
+
+.su-scf {
+   display: flex;
+}
+
+.su-scf>p {
+   color: rgb(51, 51, 51);
+   font-size: 13px;
+   margin-left: 24px;
+   letter-spacing: 0.2px;
+   cursor: pointer;
+}
+
+.su-scf>p:hover {
+   color: rgb(0, 112, 201);
+}
+
+.su-create-ur-id-layout {
+   /* border: 1px solid black; */
+   width: 34%;
+   margin: auto;
+}
+
+.su-create-ur-id-text {
+   font-size: 34px;
+   font-weight: 700;
+   text-align: center;
+   letter-spacing: 2.5px;
+   margin-top: 30px;
+}
+
+.su-apple-id-text {
+   font-size: 17px;
+   text-align: center;
+   letter-spacing: 0.6px;
+   margin-top: 8px;
+}
+
+.su-username {
+   display: flex;
+   justify-content: space-between;
+}
+
+.su-first-name {
+   width: 213px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.su-last-name {
+   width: 228px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.su-first-name>input,
+.su-last-name>input {
+   border: 1px solid rgb(214, 214, 214);
+   border-radius: 4px;
+   /* outline-color: rgba(0, 134, 201, 0.5); */
+   width: 100%;
+   height: 100%;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 0px 16px;
+}
+
+
+.su-first-name>input:focus-visible,
+.su-last-name>input:focus-visible,
+.su-option-box>select:focus-visible,
+.su-input-box>input:focus-visible,
+.su-captcha-input>input:focus-visible {
+   border: 1px solid rgba(0, 134, 201);
+   outline: 4px solid rgba(0, 134, 201, 0.3);
+}
+
+.su-country-dob {
+   color: rgb(102, 102, 102);
+   font-weight: 500;
+   margin-top: 34px;
+   margin-bottom: 2px;
+}
+
+.su-option-box>select,
+.su-input-box>input {
+   border: 1px solid rgb(214, 214, 214);
+   border-radius: 4px;
+   color: rgb(51, 51, 51);
+   width: 100%;
+   height: 54px;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 0px 16px;
+}
+
+.su-input-box {
+   /* border: 1px solid red; */
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.su-horizontal-line-layout {
+   /* border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.su-horizontal-line {
+   border-top: 1px solid rgb(205, 205, 205);
+   width: 80.4%;
+   margin: 30px 0px 15px 0px;
+}
+
+.su-new-apple-id {
+   color: rgb(102, 102, 102);
+   margin-top: 4px;
+}
+
+.messaging-data-rates {
+   color: rgb(102, 102, 102);
+   width: 92%;
+   margin-top: 14px;
+}
+
+.su-messaging-verify {
+   font-size: 17px;
+   display: flex;
+   margin: 30px 0px 0px 0px;
+}
+
+.su-radio {
+   display: flex;
+}
+
+.su-radio>input {
+   margin: 0px 18px 0px 16px;
+}
+
+.su-radio>p {
+   margin: 0px 14px 0px 0px;
+}
+
+.su-announcements {
+   margin-top: 26px;
+   margin-bottom: 12px;
+}
+
+.su-announcements,
+.su-apps {
+   /* border: 1px solid red; */
+   display: flex;
+   align-items: flex-start;
+}
+
+.su-checkbox>input {
+   margin-top: 2px;
+   width: 16px;
+   height: 16px;
+}
+
+.su-announcements-text,
+.su-apps-text {
+   margin-left: 10px;
+}
+
+.su-announcements-text>p:nth-child(1),
+.su-apps-text>p:nth-child(1) {
+   font-size: 17px;
+   width: 97%;
+   letter-spacing: 0.6px;
+}
+
+.su-announcements-text>p:nth-child(2),
+.su-apps-text>p:nth-child(2) {
+   color: rgb(102, 102, 102);
+   font-size: 13px;
+   width: 97%;
+}
+.su-captcha {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.su-captcha-img {
+   width: 120px;
+   height: 58px;
+}
+
+.su-captcha-img>img {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.su-captcha-input {
+   width: 294px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2px;
+}
+
+.su-first-name>input,
+.su-captcha-input>input {
+   border: 1px solid rgb(214, 214, 214);
+   border-radius: 4px;
+   /* outline-color: rgba(0, 134, 201, 0.5); */
+   width: 100%;
+   height: 100%;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 0px 16px;
+}
+
+.su-captcha-new-code {
+   display: flex;
+   align-items: center;
+   margin-top: 12px;
+}
+
+.su-captcha-new-code>p {
+   color: rgb(0, 112, 201);
+   font-size: 15px;
+   margin-left: 4px;
+}
+
+.su-captcha-vertical-line {
+   border-left: 1px solid rgb(202, 202, 209);
+   height: 26px;
+   margin: 0px 6px;
+   background-image: url(./../../Images/Access-logo.png);
+}
+
+.su-access-ur-data {
+   margin-top: 16px;
+}
+
+.su-access-ur-data-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.su-access-ur-data-logo>img {
+   width: 37px;
+   height: 30px;
+}
+
+.su-access-ur-data-text{
+   color: rgb(102, 102, 102);
+   font-size: 13px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   line-height: 16px;
+   margin-top: 6px;
+}
+
+.su-access-ur-data-text > span{
+   color: rgb(0, 112, 201);
+   cursor: pointer;
+}
+
+.su-access-ur-data-text > span:hover{
+   text-decoration-line: underline;
+}
+
+.su-access-ur-data-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.su-access-ur-data-button > button{
+   background-image: linear-gradient(rgb(81, 169, 238), rgb(20, 123, 205));
+   border: 1px solid rgb(20, 130, 208);
+   border-radius: 4px;
+   color: white;
+   font-size: 18px;
+   padding: 6px 16px;
+   cursor: pointer;
+}
+
+.su-access-ur-data-button > button:hover{
+   opacity: 0.94;
+}
+
+
+
+
+.su-footer {
+   height: 136px;
+}

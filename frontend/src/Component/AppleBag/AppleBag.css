@@ -1,0 +1,383 @@
+.ab-bcc {
+   background-color: rgb(245, 245, 247);
+   width: 100%;
+   height: 72px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   letter-spacing: 0.2px;
+}
+
+.ab-bcc>p:last-child {
+   color: rgb(0, 102, 204);
+   cursor: pointer;
+}
+
+
+.ab-bcc>p:last-child:hover {
+   text-decoration-line: underline;
+}
+
+.apple-bag-layout {
+   /* border: 1px solid black; */
+   width: 72.5%;
+   margin: auto;
+}
+
+.apple-bag-total {
+   font-size: 40px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 58px;
+}
+
+.apple-bag-total>p>span {
+   font-size: 36px;
+   font-weight: 400;
+   margin-top: -100px;
+}
+
+.ab-checkout {
+   display: flex;
+   justify-content: center;
+}
+
+.ab-checkout button {
+   background-color: rgb(0, 113, 227);
+   color: white;
+   border: none;
+   border-radius: 8px;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 7px 104px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   cursor: pointer;
+}
+
+.ab-checkout button:hover{
+   background-color: rgba(0, 113, 227, 0.940);
+}
+.ab-horizontal-line {
+   border-top: 1px solid rgb(210, 210, 215);
+   margin: 20px 0px;
+}
+
+.ab-product-layout {
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 69px;
+   margin-bottom: 88px;
+}
+
+.ab-product-img {
+   /* border: 1px solid red; */
+   width: 245px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.ab-product-img>img {
+   width: 203px;
+   object-fit: contain;
+}
+
+.ab-product-details {
+   /* border: 1px solid blue; */
+   width: 735px;
+}
+
+.ab-pd-name-price {
+   display: flex;
+   justify-content: space-between;
+}
+
+.ab-pd-name {
+   /* border: 1px solid green; */
+   width: 347px;
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+}
+
+.ab-pd-price {
+   /* border: 1px solid orangered; */
+   width: 375.6px;
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.ab-pd-quantity select {
+   border: none;
+   outline: none;
+   background-color: transparent;
+   font-size: 24px;
+   font-weight: 600;
+   margin: -6px 0px 0px 30px;
+}
+
+.ab-pd-card-savings {
+   color: rgb(191, 72, 0);
+   font-size: 15px;
+   text-align: end;
+   margin-top: 10px;
+}
+
+.ab-pd-installment {
+   color: rgb(29, 29, 31);
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 6px;
+}
+
+.ab-pd-remove,
+.ab-pd-save-for-later {
+   color: rgb(0, 102, 204);
+   font-size: 17px;
+   text-align: end;
+   letter-spacing: 0.6px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.ab-pd-save-for-later {
+   margin-bottom: 30px;
+}
+
+.ab-pd-remove:hover,
+.ab-pd-save-for-later:hover {
+   text-decoration-line: underline;
+}
+
+.ab-pd-apple-care {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+.ab-pd-apple-care-logo img {
+   width: 18px;
+   height: 18px;
+   margin-top: 2px;
+}
+
+.ab-pd-apple-care-details {
+   width: 706px;
+}
+
+.ab-pd-acd-text {
+   font-size: 17px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.ab-pd-acd-text>p:last-child {
+   letter-spacing: 0.3px;
+}
+
+.ab-pd-acd-hardware {
+   color: rgb(29, 29, 31);
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 6px;
+}
+
+.ab-pd-order {
+   display: flex;
+}
+
+.ab-pd-order-today {
+   display: flex;
+}
+
+.ab-pd-order-now {
+   display: flex;
+   margin-left: 70px;
+}
+
+.ab-pd-ot-logo,
+.ab-pd-on-logo {
+   width: 17px;
+   height: 18px;
+}
+
+.ab-pd-ot-logo>img,
+.ab-pd-on-logo>img {
+   width: 100%;
+   height: 100%;
+}
+
+.ab-pd-ot-text,
+.ab-pd-on-text {
+   font-size: 15px;
+   letter-spacing: 0.2px;
+   margin-left: 8px;
+}
+
+.ab-pd-ot-text>p>span,
+.ab-pd-on-text>p>span {
+   color: rgb(0, 102, 204);
+   cursor: pointer;
+}
+
+.ab-pd-ot-date {
+   font-size: 15px;
+   font-weight: 500;
+   margin-top: 4px;
+}
+
+.ab-pd-ot-date>span {
+   color: rgb(0, 102, 204);
+}
+
+
+.ab-total-amt-checkout-lay{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-top: 42px;
+}
+
+.ab-total-amt-checkout{
+   /* border: 1px solid black; */
+   width: 732px;
+   letter-spacing: 0.6px;
+}
+
+.ab-tmc-subtotal,
+.ab-tmc-monthly-payment{
+   font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+}
+.ab-tmc-Shipping{
+   font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+.ab-tmc-total{
+   font-size: 24px;
+   font-weight: 600;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+
+.ab-tmc-card-savings {
+   color: rgb(191, 72, 0);
+   font-size: 17px;
+   text-align: end;
+   margin-top: 10px;
+}
+.ab-tmc-cashback {
+   color: rgb(0, 102, 204);
+   font-size: 14px;
+   text-align: end;
+   margin-top: 10px;
+}
+.ab-tmc-checkout{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 44px;
+}
+.ab-tmc-checkout > button{
+   background-color: rgb(0, 113, 227);
+   border: none;
+   border-radius: 12px;
+   color: white;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 17px 138px;
+   cursor: pointer;
+}
+.ab-tmc-checkout > button:hover{
+   background-color: rgba(0, 113, 227, 0.940);
+}
+
+.ab-chat-now{
+   margin-top: 99px;
+}
+.ab-chat-now-text{
+   width: 72.5%;
+   margin: auto;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 4px 0px;
+}
+.ab-chat-now-text > span{
+   color: rgb(0, 102, 204);
+   cursor: pointer;
+}
+.ab-chat-now-text > span:hover{
+   text-decoration-line: underline;
+}
+
+.apple-bag-new-arrivals{
+   /* border: 1px solid goldenrod; */
+   background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-new-arrivals-checkout-201804?wid=980&hei=400&fmt=jpeg&qlt=95&.v=1523551959954);
+   width: 980px;
+   height: 400px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 60px;
+   margin-bottom: 48px;
+}
+.ab-new-arrivals-text{
+   width: 400px;
+   text-align: center;
+   letter-spacing: 0.6px;
+   margin-left: 46px;
+}
+.ab-new-arrivals-text h4{
+   font-size: 32px;
+}
+
+.ab-new-arrivals-text > p:nth-child(2){
+   font-size: 17px;
+   margin: 18px 0px;
+}
+.ab-new-arrivals-text > p:nth-child(3){
+   color: rgb(0, 102, 204);
+   font-size: 17px;
+   cursor: pointer;
+}
+.ab-new-arrivals-text > p:nth-child(3):hover{
+   text-decoration-line: underline;
+}
+
+.ab-questions-about-buying{
+   width: 72.5%;
+   margin: auto;
+   font-size: 32px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px 0px 40px 0px;
+   cursor: pointer;
+}
+
+
+.ab-qab-plus{
+   color:rgb(134, 134, 139);
+}

@@ -1,0 +1,162 @@
+.navbar {
+   background-color: rgba(22, 22, 23, 0.9);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar-content {
+   /* border: 1px solid white; */
+   width: 72.5%;
+   color: rgba(255, 255, 255, 0.8);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.apple-logo {
+   color: rgba(255, 255, 255, 0.8);
+   cursor: pointer;
+   transition: 0.6s;
+   z-index: 10;
+}
+
+.apple-logo:hover {
+   color: white;
+}
+
+.navbar-text {
+   /* border: 1px solid green; */
+   width: 83.2%;
+   font-size: 12px;
+   letter-spacing: 0.2px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-text>p {
+   cursor: pointer;
+   transition: 0.6s;
+   z-index: 10;
+}
+
+.navbar-text>p:hover {
+   color: white;
+}
+
+.navbar-search-bag {
+   display: flex;
+}
+
+.navbar-search-logo {
+   position: relative;
+   margin: 0px 40px 0px 0px;
+   cursor: pointer;
+   transition: 0.6s;
+   z-index: 10;
+}
+
+.navbar-bag-logo {
+   cursor: pointer;
+   transition: 0.6s;
+}
+
+.navbar-search-logo:hover,
+.navbar-bag-logo:hover {
+   color: white;
+}
+
+.navbar-space{
+   background-color: rgb(29, 29, 31);
+   width: 100%;
+   height: 44px;
+}
+
+.navbar-bag-bg{
+   background-color: rgba(22, 22, 23);
+   position: absolute;
+   top: 0px;
+   left: 0;
+   display: none;
+   width: 100vw;
+   height: 200px;
+   padding-top: 44px;
+   transition: 1s;
+   z-index: -1;
+   padding: 82px 0px 50px 0px;
+   cursor:auto;
+}
+
+.navbar-bag-logo:hover .navbar-bag-bg {
+   background-color: rgba(22, 22, 23);
+   display: block;
+   transition: 1s;
+}
+
+.navbar-bag{
+   /* border: 1px solid red; */
+   width: 72.5%;
+   margin: auto;
+}
+
+.navbar-bag-title{
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-bag-title > p{
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+}
+
+.navbar-bag-title > button{
+   background-color: rgb(0, 113, 227);
+   border: none;
+   border-radius: 980px;
+   color: white;
+   font-size: 17px;
+   font-weight: 500;
+   padding: 8px 16px;
+   margin-right: 36px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+.navbar-bag-title > button:hover{
+   background-color: rgb(18, 122, 226);
+}
+
+.navbar-bag-product{
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+   margin-top: 10px;
+}
+
+.navbar-bag-profile {
+   margin-top: 30px;
+}
+
+.navbar-bag-profile > h4{
+   color: rgb(134, 134, 139);
+   font-size: 12px;
+   letter-spacing: 0.2px;
+}
+
+.navbar-bag-profile p{
+   color: rgb(232, 232, 237);
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: 0.2px;
+   margin-top: 6px;
+   cursor: pointer;
+}
+
+.navbar-bag-profile-text{
+   display: flex;
+   align-items: center;
+}

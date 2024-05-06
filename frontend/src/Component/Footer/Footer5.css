@@ -1,0 +1,143 @@
+.footer5 {
+   background-color: rgb(29, 29, 31);
+   padding-top: 4px;
+   padding-bottom: 28px;
+}
+
+.footer5-content-text {
+   font-size: 13px;
+   color: rgb(134, 134, 139);
+   margin-top: 14px;
+   letter-spacing: 0.17px;
+   line-height: 16px;
+}
+
+.footer5-content-text>p>span {
+   color: rgb(66, 66, 69);
+   text-decoration-line: underline;
+}
+
+.footer5-content-text p:nth-child(2) {
+   margin-top: 8px;
+}
+
+.footer5-box {
+   /* border: 1px solid blue; */
+   width: 72.4%;
+   margin: auto;
+}
+
+.border-line-1 {
+   border-top: 1px solid rgb(163, 163, 163);
+   margin: 20px 0px 10px 0px;
+}
+
+.border-line-2 {
+   border-top: 1px solid rgb(169, 169, 169);
+   margin: 8.5px 0px 8.5px 0px;
+}
+
+.footer5-15pro-nav {
+   color: rgb(210, 210, 215);
+   display: flex;
+   font-size: 13px;
+   letter-spacing: 0.3px;
+   margin:22px 0px;
+}
+
+.f5-15pro-right-arrow{
+   margin: 0px 12px;
+}
+
+.f5-apple-logo, .footer5-15pro-nav>p:nth-child(3){
+   cursor: pointer;
+}
+
+.f5-apple-logo:hover{
+   color: white;
+}
+
+.footer5-15pro-nav>p:nth-child(3):hover{
+   text-decoration-line: underline;
+}
+
+.footer5-content-layout {
+   /* border: 1px solid blue; */
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   margin-top: 18px;
+   letter-spacing: 0.2px;
+}
+
+.footer5-content>h3 {
+   color: rgb(245, 245, 247);
+   font-size: 13px;
+   font-weight: 600;
+}
+
+.footer5-content>h4 {
+   color: rgb(245, 245, 247);
+   font-size: 13px;
+   font-weight: 600;
+   margin-top: 26px;
+}
+
+.footer5-content>p {
+   color: rgb(210, 210, 215);
+   font-size: 13px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+.footer5-content>p:hover{
+   text-decoration-line: underline;
+}
+
+.footer5-content-text-2 {
+   color: rgb(134, 134, 139);
+   font-size: 13px;
+   margin-top: 36px;
+}
+
+.footer5-pp-tc {
+   display: flex;
+   justify-content: space-between;
+   letter-spacing: 0.2px;
+}
+
+.footer5-pp-tc>p {
+   color: rgb(210, 210, 215);
+}
+
+.more-ways-to-shop {
+   letter-spacing: 0.2px;
+}
+
+.more-ways-to-shop span {
+   color: rgb(0, 102, 204);
+   text-decoration-line: underline;
+}
+
+.copyright-pp {
+   display: flex;
+}
+
+.footer5-pp-t-sp-l-sm {
+   color: rgb(210, 210, 215);
+   display: flex;
+   align-items: center;
+   margin-left: 35px;
+}
+
+.vertical-line {
+   border-left: 1px solid rgb(113, 113, 113);
+   height: 16px;
+   margin: 0px 10px;
+}
+
+.footer5-pp-t-sp-l-sm > p{
+   cursor: pointer;
+}
+.footer5-pp-t-sp-l-sm > p:hover{
+   text-decoration-line: underline;
+}

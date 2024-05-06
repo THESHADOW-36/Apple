@@ -1,0 +1,322 @@
+/* .iPhone-popup-body{
+  overflow: hidden;
+} */
+.iPhone-popup-bg {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100vh;
+  padding: 44px 0px;
+  z-index: 10;
+  overflow: scroll;
+}
+
+.iPhone-popup-bg::-webkit-scrollbar {
+  display: none;
+}
+
+
+.iPhone-popup {
+  /* border: 1px solid red; */
+  width: 980px;
+  margin: auto;
+  padding-bottom: 66px;
+}
+
+.ip-closebutton {
+  color: white;
+  font-size: 36px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.ip-content {
+  /* border: 1px solid green; */
+  background-color: white;
+  border-radius: 18px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.ipc-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ipct-left {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 42px;
+}
+
+.ipctl-phone-title {
+  display: flex;
+}
+
+.ipctl-pt-name-1 {
+  background-color: rgb(232, 232, 237);
+  border-radius: 50px;
+  padding: 8px 24px;
+  margin: 0px 2px;
+  cursor: default;
+}
+
+.ipctl-pt-name-2 {
+  /* background-color: rgb(232, 232, 237); */
+  border-radius: 50px;
+  padding: 8px 24px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.ipctl-phone-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipctl-phone-img {
+  /* border: 1px solid black; */
+  width: 364px;
+  height: 333px;
+  margin: 46px 16px 0px 16px;
+}
+
+.ipctl-phone-img>img {
+  width: 100%;
+  height: 100%;
+}
+
+.ipctl-pib-nav-left {
+  color: white;
+  margin-top: 66px;
+}
+
+.ipctl-pib-nav-right {
+  margin-top: 66px;
+}
+
+.ipctl-phone-variety {
+  color: rgba(0, 0, 0, 0.42);
+  font-size: 8px;
+  display: flex;
+  margin-top: 22px;
+}
+
+.ipctl-phone-variety>div:nth-child(1) {
+  color: black;
+}
+
+.ipctl-phone-variety>div {
+  margin: 0px 7px;
+}
+
+.ipctl-finishes {
+  margin-top: 50px;
+  letter-spacing: 0.3px;
+}
+
+.ipctl-finishes p {
+  color: rgb(110, 110, 115);
+  font-size: 13px;
+}
+
+.ipctl-finishes-color-lay {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.ipctl-finishes-color>img {
+  width: 12px;
+  height: 12px;
+  margin: 0px 3px;
+}
+
+
+
+
+
+
+
+.ipct-right {
+  /* border: 1px solid blue; */
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 42px;
+}
+
+.ipct-right-content {
+  /* border: 1px solid green; */
+  width: 89.4%;
+  padding-top: 6px;
+}
+
+.ipctr-new {
+  color: rgb(191, 72, 0);
+  font-size: 13px;
+}
+
+.ipctr-phone-name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ipctr-no-cost-emi {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.ipctr-no-cost-emi>p {
+  /* border: 1px solid black; */
+  width: 280px;
+  color: rgb(29, 29, 31);
+  font-size: 15px;
+}
+
+.ipctr-no-cost-emi>p>sup {
+  font-size: 10px;
+}
+
+.ipctr-buy-button {
+  background-color: rgb(0, 113, 227);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  height: 36px;
+  font-size: 17px;
+  padding: 2px 16px;
+  cursor: pointer;
+}
+
+.ipctr-buy-button:hover {
+  background-color: rgba(0, 113, 227, 0.9);
+}
+
+.ipctr-specs-details {
+  border-bottom: 1px solid rgb(210, 210, 215);
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.ipctr-specs>div:last-child {
+  border: none;
+}
+
+.ipctr-sd-img {
+  /* border: 1px solid red; */
+  width: 42px;
+  height: 42px;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipctr-sd-img>img {
+  width: 32px;
+}
+
+.ipctr-sd-text {
+  /* border: 1px solid green; */
+  width: 378px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+.ipctr-explore {
+  color: rgb(0, 102, 204);
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ipctr-explore>p {
+  margin-right: 6px;
+}
+
+.ipctr-explore>p:hover {
+  text-decoration-line: underline;
+}
+
+.ipc-bottom {
+  background-color: rgb(245, 245, 247);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding:20px 0px;
+}
+
+.ipcb-lay{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ipcb-content{
+  /* border: 1px solid red; */
+  width: 273.3px;
+  display: flex;
+  /* padding: 0px 30px; */
+}
+.ipcb-logo{
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+}
+.ipcb-logo-2{
+  /* border: 1px solid green; */
+  width: 28px;
+  height: 20px;
+  margin-right: 6px;
+}
+.ipcb-logo>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ipcb-logo-2>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ipcb-text>p:nth-child(1){
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.ipcb-text>p:nth-child(2){
+  color: rgb(29, 29, 31);
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+
+.ipcb-text>p:nth-child(2)>sup{
+  font-size: 8px;
+}
+
+
+
+
+
+.ipc-notes {
+  /* border: 1px solid white; */
+  color: white;
+  width: 96%;
+  margin: auto;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  margin-top: 40px;
+}

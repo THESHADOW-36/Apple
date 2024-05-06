@@ -1,0 +1,453 @@
+	/* body {
+		overflow-y: hidden;
+	} */
+
+	.shopiPhone {
+		background-color: rgb(245, 245, 247);
+		width: 100%;
+	}
+
+	.si-bcc {
+		background-color: rgb(28, 39, 57);
+		height: 72px;
+		color: rgb(240, 227, 202);
+		font-size: 16x;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.si-bcc>p>span {
+		color: rgb(243, 154, 69);
+		cursor: pointer;
+	}
+
+
+	.si-cat {
+		/* border: 1px solid red; */
+		display: flex;
+		padding-left: 122px;
+		margin-top: 66px;
+	}
+
+	.si-cat>p:nth-child(1) {
+		border-bottom: 1px solid black;
+		font-weight: 600;
+	}
+
+	.si-cat>p {
+		font-size: 17px;
+		letter-spacing: 0.6px;
+		margin-right: 40px;
+		cursor: pointer;
+	}
+
+	.si-cat>p:hover {
+		color: rgba(0, 0, 0, 0.6);
+	}
+
+
+
+
+
+	.si-all-models {
+		padding-left: 106px;
+	}
+
+	.si-am-title {
+		font-size: 28px;
+		font-weight: 600;
+		letter-spacing: 0.6px;
+		margin-left: 14px;
+		margin-top: 60px;
+	}
+
+	.si-am-title>span {
+		color: rgb(110, 110, 115);
+	}
+
+	.si-am-content {
+		/* border: 1px solid grey; */
+		display: flex;
+		overflow-x: scroll;
+		padding: 25px 0px;
+		cursor: pointer;
+	}
+
+	.si-am-content>div {
+		transition: 0.4s;
+		box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+	}
+
+	.si-am-content::-webkit-scrollbar {
+		display: none;
+	}
+
+	.si-am-content>div:hover {
+		transform: scale(1.01);
+		box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+	}
+
+	.si-am-empty {
+		border: 1px solid black;
+		min-width: 1px;
+		margin-right: -10px;
+	}
+
+	.si-am-layout {
+		background-color: white;
+		color: black;
+		border-radius: 18px;
+		min-width: 400px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-am-product-content {
+		/* border: 1px solid blue; */
+		padding: 0px 30px 30px 30px;
+	}
+
+	.si-am-product-details {
+		/* border: 1px solid green; */
+		padding: 30px 30px 24px 30px;
+	}
+
+	.si-am-new-product {
+		color: rgb(191, 72, 0);
+		font-size: 12.5px;
+		font-weight: 600;
+	}
+
+	.si-am-product-name {
+		color: rgb(29, 29, 31);
+		font-size: 28px;
+		font-weight: 600;
+		letter-spacing: 0.8px;
+		margin-top: 5px;
+	}
+
+	.si-am-image {
+		/* border: 1px solid red; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/* padding-top: 70px; */
+		padding-bottom: 21px;
+	}
+
+	.si-am-image img {
+		width: 297.5px;
+		height: 231px;
+	}
+
+	.si-am-color-palatte {
+		display: flex;
+		justify-content: center;
+	}
+
+	.si-am-color-palatte div {
+		width: 12px;
+		height: 12px;
+		margin: 0px 3px;
+	}
+
+	.si-am-color-palatte div img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.si-am-buy-price {
+		/* border: 1px solid red; */
+		display: flex;
+		justify-content: space-between;
+		margin-top: 26px;
+	}
+
+	.si-am-product-price {
+		color: rgb(29, 29, 31);
+		font-size: 15px;
+		line-height: 12px;
+	}
+
+	.si-am-product-price sup {
+		font-size: 10px;
+	}
+
+	.si-am-buy {
+		background-color: rgb(0, 113, 227);
+		border: none;
+		border-radius: 980px;
+		height: 35px;
+		color: white;
+		font-size: 17px;
+		padding: 0px 16px;
+		margin-top: 2px;
+	}
+
+
+
+
+
+
+
+
+	.si-festive-specials {
+		/* border: 1px solid black; */
+		margin-top: 40px;
+	}
+
+	.si-festive-specials>p {
+		padding-left: 118px;
+		color: rgb(29, 29, 31);
+		font-size: 28px;
+		font-weight: 800;
+		letter-spacing: 0.8px;
+	}
+
+	.si-festive-specials>p>span {
+		color: rgb(110, 110, 115);
+	}
+
+	.si-fs-content {
+		/* border: 1px solid grey; */
+		display: flex;
+		overflow-x: scroll;
+		padding: 25px 0px;
+		cursor: pointer;
+	}
+
+	.si-fs-content::-webkit-scrollbar {
+		display: none;
+	}
+
+	.si-fs-content>div {
+		transition: 0.4s;
+		box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+	}
+
+	.si-fs-content>div:hover {
+		transform: scale(1.01);
+		box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+	}
+
+	.si-fs-empty {
+		min-width: 117px;
+		margin-right: -10px;
+	}
+
+	.si-fs-festival-offer {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/step-0-card-50-diwali-festive-iphone-202310?wid=400&hei=500&fmt=png-alpha&.v=1697210873355);
+		color: white;
+		border-radius: 18px;
+		min-width: 400px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-fs-apple-trade-in {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/step-0-card-50-diwali-iphone-tradein-202310?wid=400&hei=500&fmt=png-alpha&.v=1695839444594);
+		color: white;
+		border-radius: 18px;
+		min-width: 400px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-fs-today-at-apple {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/step-0-card-50-diwali-todayatapple-202310?wid=400&hei=500&fmt=png-alpha&.v=1695838675303);
+		color: white;
+		border-radius: 18px;
+		min-width: 400px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-fs-product-content {
+		padding: 30px;
+		letter-spacing: 0.6px;
+	}
+
+	.si-fs-product-name {
+		color: rgb(245, 245, 247);
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.si-fs-product-specification {
+		color: rgb(240, 227, 202);
+		font-size: 28px;
+		font-weight: 600;
+		margin-top: 15px;
+	}
+
+	.si-fs-product-price {
+		color: white;
+		font-size: 17px;
+		margin-top: 8px;
+	}
+
+
+
+
+
+
+
+
+	.si-shopping-guides {
+		/* border: 1px solid black; */
+		margin-top: 40px;
+	}
+
+	.si-shopping-guides>p {
+		padding-left: 118px;
+		color: rgb(29, 29, 31);
+		font-size: 28px;
+		font-weight: 800;
+		letter-spacing: 0.8px;
+	}
+
+	.si-shopping-guides>p>span {
+		color: rgb(110, 110, 115);
+	}
+
+	.si-sg-content {
+		/* border: 1px solid grey; */
+		display: flex;
+		overflow-x: scroll;
+		padding: 25px 0px;
+		cursor: pointer;
+	}
+
+	.si-sg-content::-webkit-scrollbar {
+		display: none;
+	}
+
+	.si-sg-content>div {
+		transition: 0.4s;
+		box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+	}
+
+	.si-sg-content>div:hover {
+		transform: scale(1.01);
+		box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+	}
+
+	.si-sg-empty {
+		min-width: 117px;
+		margin-right: -10px;
+	}
+
+	.si-sg-festival-offer {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-compare-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692912411334);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-apple-trade-in {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-shop0-card-50-specialist-help-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1695232630251);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-today-at-apple {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-whyswitch-202109_GEO_IN?wid=480&hei=500&fmt=png-alpha&.v=1634591285000);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-quick-setup {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-setup-202209_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1661535840253);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-data-transfer {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-icloud-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1629955002000);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-switch-to-iPhone {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-apple-tv {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696949431686);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-airpods {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-50-airpods-202209?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1661626394670);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+	.si-sg-airtag {
+		background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-airtags-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1693018333508);
+		color: white;
+		border-radius: 18px;
+		min-width: 480px;
+		height: 500px;
+		margin: 0px 10px;
+	}
+
+
+	.si-sg-product-content {
+		padding: 30px;
+		letter-spacing: 0.6px;
+	}
+
+	.si-sg-product-name {
+		color: rgb(110, 110, 115);
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.si-sg-product-specification {
+		color: black;
+		font-size: 28px;
+		font-weight: 600;
+		margin-top: 15px;
+	}
+
+	.si-sg-product-name-0 {
+		color: white;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.si-sg-product-specification-0 {
+		color: white;
+		font-size: 28px;
+		font-weight: 600;
+		margin-top: 15px;
+	}

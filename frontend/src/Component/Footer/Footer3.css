@@ -1,0 +1,71 @@
+.footer3 {
+   background-color: rgb(245, 245, 247);
+   padding-top: 4px;
+   padding-bottom: 28px;
+}
+
+.footer3-content-text-2 {
+   width: 72.5%;
+   margin: auto;
+   color: rgb(110, 110, 115);
+   font-size: 13px;
+}
+
+.footer3-security-policy {
+   font-size: 13px;
+   letter-spacing: 0.2px;
+   padding: 14px 0px 20px 0px;
+}
+
+.footer3-security-policy>span {
+   color: rgb(66, 66, 69);
+   text-decoration-line: underline;
+}
+
+.footer3-border-line-2 {
+   border-top: 1px solid rgb(169, 169, 169);
+}
+
+
+.footer3-pp-tc {
+   display: flex;
+   justify-content: space-between;
+   letter-spacing: 0.2px;
+}
+
+.footer3-more-ways-to-shop {
+   letter-spacing: 0.3px;
+}
+
+.footer3-more-ways-to-shop span {
+   color: rgb(0, 102, 204);
+   text-decoration-line: underline;
+}
+
+.footer3-copyright-pp {
+   display: flex;
+   margin-top: 6px;
+}
+
+.footer3-pp-t-sp-l-sm {
+   display: flex;
+   align-items: center;
+   margin-left: 35px;
+   color: rgb(66, 66, 69);
+}
+
+.footer3-vertical-line {
+   border-left: 1px solid rgb(113, 113, 113);
+   height: 16px;
+   margin: 0px 10px;
+}
+
+
+
+.footer3-pp-t-sp-l-sm>p {
+   cursor: pointer;
+}
+
+.footer3-pp-t-sp-l-sm>p:hover {
+   text-decoration-line: underline;
+}

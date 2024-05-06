@@ -1,0 +1,63 @@
+.footer4 {
+   background-color: rgb(245, 245, 247);
+   padding-top: 16px;
+   padding-bottom: 28px;
+}
+
+.footer4-content-text-2 {
+   width: 72.5%;
+   margin: auto;
+   color: rgb(110, 110, 115);
+   font-size: 13px;
+}
+
+.footer4-border-line-2 {
+   border-top: 1px solid rgb(169, 169, 169);
+}
+
+
+.footer4-pp-tc {
+   display: flex;
+   justify-content: space-between;
+   letter-spacing: 0.2px;
+}
+
+.footer4-more-ways-to-shop {
+   letter-spacing: 0.3px;
+   cursor: pointer;
+}
+
+.footer4-more-ways-to-shop span {
+   color: rgb(0, 102, 204);
+}
+
+.footer4-more-ways-to-shop span:hover {
+   text-decoration-line: underline;
+}
+
+.footer4-copyright-pp {
+   display: flex;
+   margin-top: 6px;
+}
+
+.footer4-pp-t-sp-l-sm {
+   display: flex;
+   align-items: center;
+   color: rgb(66, 66, 69);
+   margin-left: 35px;
+}
+
+
+.footer4-vertical-line {
+   border-left: 1px solid rgb(113, 113, 113);
+   height: 16px;
+   margin: 0px 10px;
+}
+
+
+.footer4-pp-t-sp-l-sm > p{
+   cursor: pointer;
+}
+.footer4-pp-t-sp-l-sm > p:hover{
+   text-decoration-line: underline;
+}

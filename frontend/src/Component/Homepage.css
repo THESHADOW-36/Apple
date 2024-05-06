@@ -1,0 +1,355 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "SF Pro";
+   /* "SF Pro Text", */
+   /* "Myriad Set Pro", */
+   /* "SF Pro Icons", */
+   /* "Apple Legacy Chevron", */
+   /* "Helvetica Neue", */
+   /* "Helvetica", */
+   /* "Arial", */
+   /* sans-serif; */
+   /* overflow-x: hidden; */
+}
+
+body {
+   overflow-x: hidden;
+}
+
+/* .navbar-bg {
+   background-color: rgb(29, 29, 31);
+   width: 100%;
+   height: 44px;
+} */
+
+.homepage {
+   /* border: 1px solid red; */
+   width: 100%;
+}
+
+.bankoffers-ad {
+   background-color: rgb(29, 29, 31);
+   width: 100%;
+   height: 44px;
+   color: white;
+   font-size: 14.2px;
+   font-weight: 500;
+   letter-spacing: 0.3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bankoffers-ad>p {
+   margin-bottom: 4px;
+}
+
+.bankoffers-ad-shopNow {
+   /* border: 1px solid red; */
+   display: flex;
+   margin-left: 6px;
+   color: rgb(0, 102, 204);
+}
+
+.bankoffers-right-logo {
+   margin-left: 4px;
+   margin-top: 2px;
+}
+
+.iPhone-15-pro {
+   color: white;
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+   background-position: bottom;
+   background-size: auto;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.iPhone-15 {
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+   background-position: bottom;
+   background-size: auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 12px;
+   cursor: pointer;
+}
+
+
+.watch-series-9 {
+   color: white;
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/in/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg);
+   background-position: bottom;
+   background-size: auto;
+   margin: 12px 0px 6px 0px;
+   cursor: pointer;
+}
+
+
+.text-box-1,
+.text-box-2 {
+   /* border: 1px solid white; */
+   text-align: center;
+   padding-top: 42px;
+}
+
+.text-box-3 {
+   /* border: 1px solid white; */
+   text-align: center;
+   padding-top: 55px;
+}
+
+.text-box-1>p:nth-child(1),
+.text-box-2>p:nth-child(1),
+.text-box-3>p:nth-child(1) {
+   font-size: 56px;
+   font-weight: 800;
+   letter-spacing: 0.5px;
+}
+
+.text-box-1>p:nth-child(2),
+.text-box-2>p:nth-child(2) {
+   font-size: 28px;
+}
+
+.text-box-3>p:nth-child(2) {
+   font-size: 28px;
+   margin-top: 8px;
+}
+
+.info-buy {
+   display: flex;
+   justify-content: center;
+   margin-right: 6px;
+}
+
+.learn-pro,
+.buy {
+   color: rgb(41, 151, 255);
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+   margin: 14px 20px;
+}
+
+.learn-pro-2,
+.buy-2 {
+   color: rgb(0, 102, 204);
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+   margin: 14px 20px;
+}
+
+
+.product-right-arrow {
+   font-size: 16px;
+   margin-top: 6px;
+   margin-left: 4px;
+}
+
+.product-layout {
+   /* border: 1px solid blue; */
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.ipad-pro {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/in/home/promos/ipad-pro/images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+   background-position: center;
+   background-size: cover;
+   color: white;
+   cursor: pointer;
+}
+
+
+.watch-ultra-2 {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+
+.macBook-air-15 {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+
+.airPods-pro {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+   background-position: center;
+   background-size: cover;
+   color: white;
+   cursor: pointer;
+}
+
+
+.trade-in {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+
+.homePod-mini {
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+.product-text-box-1,
+.product-text-box-3,
+.product-text-box-4,
+.product-text-box-6 {
+   /* border: 1px solid white; */
+   text-align: center;
+   padding-top: 50px;
+}
+
+.product-text-box-2 {
+   /* border: 1px solid white; */
+   text-align: center;
+   padding-top: 60px;
+}
+
+.product-text-box-5 {
+   /* border: 1px solid white; */
+   text-align: center;
+   padding-top: 58px;
+}
+
+
+.product-text-box-1>p:nth-child(1),
+.product-text-box-3>p:nth-child(1),
+.product-text-box-4>p:nth-child(1),
+.product-text-box-5>p:nth-child(1),
+.product-text-box-6>p:nth-child(1) {
+   font-size: 40px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+}
+
+.product-text-box-2>p:nth-child(2),
+.product-text-box-4>p:nth-child(2),
+.product-text-box-5>p:nth-child(2),
+.product-text-box-6>p:nth-child(2) {
+   font-size: 22px;
+   margin-top: 4px;
+}
+
+.product-text-box-3>p:nth-child(2) {
+   font-size: 22px;
+   margin-top: 2px;
+}
+
+.supercharged {
+   /* border: 1px solid white; */
+   display: flex;
+   justify-content: center;
+   font-size: 22px;
+   margin-top: -4px;
+}
+
+.supercharged>p {
+   margin-top: 4px;
+   margin-right: 4px;
+}
+
+.product-info-buy {
+   display: flex;
+   justify-content: center;
+   margin-right: 6px;
+}
+
+.product-info-buy-2,
+.product-info-buy-3 {
+   display: flex;
+   justify-content: center;
+   margin-right: 6px;
+   margin-top: 5px;
+}
+
+
+.product-learn-pro,
+.product-buy,
+.see-what {
+   color: rgb(41, 151, 255);
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   margin: 5px 16px;
+   letter-spacing: 0.3px;
+}
+
+
+.product-right-arrow-2 {
+   font-size: 12px;
+   margin-top: 4px;
+   margin-left: 4px;
+}
+
+.tv-plus {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 6px;
+}
+
+.tv-plus>img {
+   width: 980px;
+   height: 523px;
+   object-fit: cover;
+}
+
+.tv-plu-slick {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.tv-plu-slick>div {
+   margin: 0px 6px;
+}
+
+.slick-1,
+.slick-2,
+.slick-3,
+.slick-4,
+.slick-6,
+.slick-7 {
+   color: rgba(0, 0, 0, 0.42);
+}

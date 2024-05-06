@@ -1,0 +1,621 @@
+.iPhone15pro {
+   width: 100%;
+}
+
+.iPhone15pro-view-more {
+   position: sticky;
+   bottom: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 112px;
+}
+
+.iPhone15pro-view-more-box {
+   background-color: rgba(66, 66, 69, 0.7);
+   border-radius: 32px;
+   width: 291.4px;
+   height: 56px;
+   color: white;
+   font-size: 17px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.iPhone15pro-view-more-box>p {
+   margin-left: 26px;
+}
+.iPhone15pro-view-more-add-logo-layout{
+   margin-bottom: 6px;
+}
+
+.iPhone15pro-view-more-add-logo {
+   color: rgb(0, 113, 227);
+   font-size: 36px;
+   margin-right: 10px;
+}
+
+.iPhone15pro-view-more-add-logo-ws {
+   background-color: rgba(255, 255, 255, 0.7);
+   border-radius: 30px;
+   width: 30px;
+   height: 30px;
+   margin-top: -38px;
+   margin-left: 4px;
+}
+
+.iPhone15pro-view-more:hover .iPhone15pro-view-more-add-logo-ws{
+   background-color: white;
+}
+
+
+.iPhone15pro-bcc {
+   background-color: rgb(28, 39, 57);
+   color: white;
+   width: 100%;
+   height: 44.6px;
+   font-size: 15px;
+   letter-spacing: 0.3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.iPhone15pro-bcc>p>span {
+   color: rgb(0, 102, 204);
+   cursor: pointer;
+}
+
+.iPhone15pro-bcc>p>span:hover {
+   text-decoration-line: underline;
+}
+
+.iPhone15pro-right-arrow {
+   color: rgb(0, 102, 204);
+   margin-left: 4px;
+}
+
+.iPhone15pro-img-bg {
+   background-color: black;
+   color: white;
+   width: 100%;
+   height: 608px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.iPhone15pro-img {
+   /* border: 1px solid white; */
+   background-image: url(https://www.apple.com/in/iphone-15-pro/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large.jpg);
+   /* background-size: contain; */
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.iPhone15pro-text {
+   color: rgb(245, 245, 247);
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.iPhone15pro-buy {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.iPhone15pro-buy-button {
+   border: none;
+   border-radius: 980px;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-size: 17px;
+   padding: 12px 22px;
+   margin-bottom: 30px;
+}
+
+.iPhone15pro-buy>p {
+   font-size: 21px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+   margin-bottom: 20px;
+}
+
+.iPhone15pro-get-highlights-bg {
+   background-color: rgb(16, 16, 16);
+   height: 1250px;
+}
+
+.iPhone15pro-get-highlights {
+   /* border: 1px solid white; */
+   width: 93.2%;
+   margin: auto;
+   padding-top: 200px;
+}
+
+.iPhone15pro-get-highlights-text {
+   color: white;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.iPhone15pro-get-highlights-text>p {
+   color: rgb(134, 134, 139);
+   font-size: 56px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.iPhone15pro-gh-film-event {
+   display: flex;
+   margin-bottom: 10px;
+}
+
+.iPhone15pro-gh-film,
+.iPhone15pro-gh-event {
+   color: rgb(41, 151, 255);
+   font-size: 21px;
+   letter-spacing: 0.3px;
+   display: flex;
+   margin-left: 28px;
+   cursor: pointer;
+}
+
+.iPhone15pro-gh-film>p:hover,
+.iPhone15pro-gh-event>p:hover {
+   text-decoration-line: underline;
+}
+
+.iPhone15pro-wtf-play-logo,
+.iPhone15pro-wte-rightarrow-logo {
+   margin-left: 6px;
+}
+
+.iPhone15pro-get-highlights-img {
+   background-image: url(https://www.apple.com/v/iphone-15-pro/b/images/overview/highlights/titanium__dpzwrhj26dm6_large.jpg);
+   border-radius: 28px;
+   height: 680px;
+   color: rgb(245, 245, 247);
+   margin-top: 38px;
+}
+
+.iPhone15pro-get-highlights-img {
+   font-size: 28px;
+   font-weight: 600;
+   letter-spacing: 0.8px;
+   padding: 36px 0px 0px 44px;
+}
+
+.iPhone15pro-closer-look-bg {
+   background-color: black;
+   height: 1080px;
+}
+
+.iPhone15pro-closer-look {
+   /* border: 1px solid white; */
+   width: 93.2%;
+   margin: auto;
+   padding-top: 200px;
+}
+
+.iPhone15pro-cl-text {
+   color: rgb(134, 134, 139);
+   font-size: 56px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.iPhone15pro-cl-img {
+   display: flex;
+   justify-content: center;
+   margin-top: 74px;
+}
+
+.iPhone15pro-four-colors {
+   position: sticky;
+   bottom: 30px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 88px;
+}
+
+.iPhone15pro-four-colors>p {
+   background-color: rgba(0, 0, 0, 0.3);
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+   padding: 4px 6px;
+}
+.iPhone15pro-four-colors>p>sup{
+   font-size: 6px;
+}
+.iPhone15pro-four-colors-palette {
+   background-color: rgba(66, 66, 69, 0.7);
+   border-radius: 32px;
+   width: 226px;
+   height: 56px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 12px;
+}
+
+.iPhone15pro-four-colors-palette > div{
+   cursor: pointer;
+}
+
+.iPhone15pro-fcp-0>img {
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.iPhone15pro-fcp-0 {
+   border: 2px solid white;
+   border-radius: 20px;
+   width: 29px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px 0px 0.203px 0.42px;
+}
+
+.iPhone15pro-fcp-1 {
+   color: rgb(143, 138, 129);
+   /* border: 2px solid white;
+   border-radius: 20px;
+   width: 29px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1px 0.5px 0px 0px; */
+}
+
+.iPhone15pro-fcp-2 {
+   color: rgb(26, 32, 42);
+   /* border: 2px solid white;
+   border-radius: 20px;
+   width: 29px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1px 0.5px 0px 0px; */
+}
+
+.iPhone15pro-fcp-3 {
+   color: rgb(201, 200, 195);
+   /* border: 2px solid white;
+   border-radius: 20px;
+   width: 29px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1px 0.5px 0px 0px; */
+}
+
+.iPhone15pro-fcp-4 {
+   color: rgb(30, 31, 32);
+   /* border: 2px solid white;
+   border-radius: 20px;
+   width: 29px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1px 0.5px 0px 0px; */
+}
+
+.iPhone15pro-explore-full-story-bg {
+   background-color: rgb(16, 16, 16);
+   height: 2299px;
+}
+
+.iPhone15pro-explore-full-story {
+   /* border: 1px solid white; */
+   width: 93.2%;
+   margin: auto;
+   padding-top: 196px;
+}
+
+.iPhone15pro-efs-text {
+   color: rgb(134, 134, 139);
+   font-size: 56px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.iPhone15pro-forged-in-titanium {
+   /* border: 1px solid white; */
+   width: 83.3%;
+   margin: auto;
+   padding-top: 194px;
+}
+
+.iPhone15pro-forged-in-titanium>p {
+   color: rgb(245, 245, 247);
+   font-size: 80px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   margin-left: 36px;
+}
+
+.iPhone15pro-fit-img1 {
+   /* border: 1px solid white; */
+   background-color: black;
+   height: 517px;
+   margin-top: 94px;
+}
+
+.iPhone15pro-fit-img1>img {
+   width: 100%;
+   margin-top: 96px;
+}
+
+.iPhone15pro-fit-img-2-3 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.iPhone15pro-fit-img2,
+.iPhone15pro-fit-img3 {
+   /* border: 1px solid white; */
+   background-color: black;
+   width: 515px;
+   height: 514px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.iPhone15pro-fit-img2>img,
+.iPhone15pro-fit-img3>img {
+   background-size: contain;
+}
+
+.iPhone15pro-fit-details {
+   color: white;
+   display: flex;
+   margin-top: 60px;
+}
+
+.iPhone15pro-fit-details>div {
+   /* border: 1px solid white; */
+   color: rgb(134, 134, 139);
+   font-size: 21px;
+   font-weight: 600;
+   letter-spacing: 0.8px;
+   line-height: 28px;
+   width: 50%;
+}
+
+.iPhone15pro-fit-details>div:nth-child(1)>p {
+   /* border: 1px solid white; */
+   width: 324px;
+   margin-left: 114px;
+}
+
+.iPhone15pro-fit-details>div:nth-child(2)>p {
+   /* border: 1px solid white; */
+   width: 326.6px;
+   margin-left: 80px;
+}
+
+.iPhone15pro-fit-details>div>p>span {
+   color: rgb(245, 245, 247);
+}
+
+
+/* .iPhone15pro-view-more-add-logo-ws:hover + .iPhone15pro-view-more-box:hover{
+   background-color: black;
+} */
+
+.iPhone15pro-black-bg {
+   background-color: black;
+   width: 100%;
+   display: flex;
+}
+
+.iPhone15pro-camera-captures {
+   position: relative;
+   /* border: 1px solid white; */
+   width: 100%;
+   color: white;
+   padding: 200px 0px 100px 0px;
+}
+
+.iPhone15pro-cc-text-1 {
+   font-size: 80px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   padding-left: 186px;
+}
+
+.iPhone15pro-cc-text-2 {
+   color: rgb(134, 134, 139);
+   width: 980px;
+   font-size: 28px;
+   font-weight: 600;
+   letter-spacing: 0.9px;
+   margin-top: 26px;
+   padding-left: 186px;
+}
+
+.iPhone15pro-cc-img {
+   /* border: 1px solid wheat; */
+   height: 873px;
+   margin-top: 16px;
+   margin-right: -50px;
+}
+
+.iPhone15pro-cc-img-lay {
+   position: relative;
+}
+
+.iPhone15pro-cc-img>img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   object-position: right;
+}
+
+.iPhone15pro-cc-text-3 {
+   position: absolute;
+   bottom: 70px;
+   color: rgb(134, 134, 139);
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 1.1px;
+   padding-left: 186px;
+}
+
+.iPhone15pro-cc-text-4 {
+   /* border: 1px solid white; */
+   color: rgb(134, 134, 139);
+   width: 344px;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 1.1px;
+   line-height: 30px;
+   margin-top: 26px;
+   padding-left: 346px;
+}
+
+.iPhone15pro-cc-text-4>span {
+   color: white;
+}
+
+.iPhone15pro-cc-pro-len {
+   /* border: 1px solid green; */
+   width: 100%;
+   display: flex;
+   overflow-x: scroll;
+   padding-left: 340px;
+   margin-top: 60px;
+}
+
+.iPhone15pro-cc-pro-len::-webkit-scrollbar {
+   display: none;
+}
+
+.iPhone15pro-cc-pl-img {
+   /* border: 1px solid red; */
+   width: 653px;
+   height: 490px;
+   margin: 0px 4px;
+}
+
+.iPhone15pro-cc-pl-nav {
+   /* border: 1px solid white; */
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 184px;
+   margin-top: 36px;
+}
+
+.iPhone15pro-cc-pl-nav>p {
+   /* border: 1px solid green; */
+   font-size: 19px;
+   font-weight: 600;
+   width: 653px;
+   margin-right: 60px;
+   text-align: center;
+   letter-spacing: 0.6px;
+}
+
+.iPhone15pro-cc-pl-nav>p>span {
+   color: rgb(134, 134, 139);
+}
+
+.iPhone15pro-cc-pl-nav-icon {
+   display: flex;
+}
+
+.iPhone15pro-cc-pl-nav-icon>div {
+   color: rgb(51, 51, 54);
+   margin-left: 16px;
+   cursor: pointer;
+}
+
+.iPhone15pro-cc-pl-ni {
+   font-size: 18px;
+}
+
+.white-background {
+   background-color: white;
+   border-radius: 10px;
+   width: 20px;
+   height: 24px;
+   margin-top: -24px;
+   margin-left: 8px;
+}
+
+.iPhone15pro-cc-detail-color {
+   margin-top: 158px;
+   padding-left: 346px;
+   display: flex;
+   align-items: center;
+}
+
+.iPhone15pro-cc-dc-text {
+   /* border: 1px solid white; */
+   color: rgb(134, 134, 139);
+   width: 316px;
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 28px;
+   margin-left: 80px;
+}
+
+.iPhone15pro-cc-dc-text>p>span {
+   color: white;
+}
+
+.iPhone15pro-cc-horizontal-line {
+   border-top: 1px solid rgb(66, 66, 69);
+   margin: 156px 184px;
+}
+
+.iPhone15pro-cc-spatial-video-capture {
+   /* border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.iPhone15pro-cc-spatial-video-capture > p {
+   border: 1px solid rgb(134, 134, 139);
+   border-radius: 19px;
+   color: rgb(134, 134, 139);
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 8px 30px;
+   margin-top: 5px;
+}
+
+.iPhone15pro-cc-apple-vision-pro{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   line-height: 45px;
+   margin-top: 40px;
+}
